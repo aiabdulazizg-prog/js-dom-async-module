@@ -1,0 +1,14 @@
+css
+
+ul {list-style: none; padding: 0;}
+li{
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    padding: 8px;
+    cursor: pointer;
+}
+.tick {visibility: hidden;}
+li.completed {color: green;}
+li.completed .tick {visibility: visible;}
